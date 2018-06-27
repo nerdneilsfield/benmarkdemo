@@ -9,7 +9,7 @@ CREATE TABLE posts (
 
 CREATE TABLE tags (
   tag_id integer primary key autoincrement,
-  name text
+  name text unique
 );
 
 CREATE TABLE post_tags (
