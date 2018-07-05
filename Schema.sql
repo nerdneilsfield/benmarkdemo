@@ -4,7 +4,7 @@ CREATE TABLE posts (
   descrption text,
   content text,
   create_time datetime not null,
-  update_time datetime default current_time
+  update_time datetime default current_timestamp
 );
 
 CREATE TABLE tags (
